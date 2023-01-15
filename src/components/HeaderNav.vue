@@ -27,14 +27,9 @@ export default {
 					to: "/historial_creditos",
 				},
 				{
-					label: "Generar solicitud",
-					icon: "pi pi-fw pi-money-bill",
-					to: "/generar_solicitud",
-				},
-				{
-					label: "Mis solicitudes",
-					icon: "pi pi-fw pi-home",
-					to: "/mis_solicitudes",
+					label: "Salir",
+					icon: "pi pi-fw pi-sign-out",
+					to: "/",
 				},
 			],
 		};

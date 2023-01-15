@@ -84,6 +84,13 @@ export default {
 						return self.$router.push({
 							name: "Home",
 						});
+					} else {
+						self.$swal.fire({
+							icon: "error",
+							title: "¡Ups!",
+							text: "Sus credenciales son incorrectas.",
+						});
+						return false;
 					}
 				});
 		},
